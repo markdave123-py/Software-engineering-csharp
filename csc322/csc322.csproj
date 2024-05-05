@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'https' " />
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <AssemblyName>MyAssemblycsc322comments.Xml</AssemblyName>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\net7.0\MyAssemblycsc322comments.Xml.xml</DocumentationFile>
+  </PropertyGroup>
+</Project>

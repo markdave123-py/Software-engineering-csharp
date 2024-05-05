@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/MyAssemblycsc322comments.Xml.props" />
+</Project>

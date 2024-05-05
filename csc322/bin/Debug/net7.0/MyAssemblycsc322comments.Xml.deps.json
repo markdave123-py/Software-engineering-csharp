@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "MyAssemblycsc322comments.Xml/1.0.0": {
+        "runtime": {
+          "MyAssemblycsc322comments.Xml.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MyAssemblycsc322comments.Xml/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{BC074C0C-D340-4685-982A-1B23C1EDF34B}|https">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="csc322/student.cs">
+    <Files>
+      <File FileName="csc322/Program.cs" Line="23" Column="27" />
+      <File FileName="csc322/EmptyClass.cs" Line="19" Column="27" />
+      <File FileName="csc322/student.cs" Line="219" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="csc322" expanded="True" selected="True">
+            <Node name="csc322" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.csc322 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <Debugger.DebugSourceFolders />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

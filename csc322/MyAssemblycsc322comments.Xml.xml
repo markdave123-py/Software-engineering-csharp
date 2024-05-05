@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyAssemblycsc322comments.Xml</name>
+    </assembly>
+    <members>
+        <member name="T:StudentManagementSystem.Person">
+            <summary>
+            Represents a person
+            </summary>
+        </member>
+        <member name="P:StudentManagementSystem.Person.Name">
+            <summary>
+            Gets and set Name for the person
+            </summary>
+        </member>
+        <member name="P:StudentManagementSystem.Person.Email">
+            <summary>
+            Gets and set Email for the person
+            </summary>
+        </member>
+        <member name="P:StudentManagementSystem.Person.Age">
+            <summary>
+            Gets and set Age for the person
+            </summary>
+        </member>
+        <member name="M:StudentManagementSystem.Person.DisplayInfo">
+            <summary>
+            Displays information about person
+            </summary>
+        </member>
+        <member name="P:StudentManagementSystem.Student.StudentId">
+            <summary>
+            Gets and set the StudentID, this is unique for all student instance
+            </summary>
+        </member>
+        <member name="P:StudentManagementSystem.Student.UniversityName">
+            <summary>
+            Gets and set the UniversityName
+            </summary>
+        </member>
+        <member name="P:StudentManagementSystem.Student.Department">
+            <summary>
+            Gets and set the Department
+            </summary>
+        </member>
+        <member name="M:StudentManagementSystem.Student.#ctor(System.String,System.String,System.Int32,System.String,System.String)">
+            <summary>
+            Initializes a new instance of the Student class.
+            </summary>
+            <param name="name">The name of the student.</param>
+            <param name="email"> The email of the stude.</param>
+            <param name="age">The age of the student.</param>
+            <param name="universityName">The university of the student.</param>
+            <param name="department">The student department</param>
+            <remarks>
+            Preconditions: The name, age, email, department and universityName  parameters must be provided and should be a string.
+            Postconditions: A new instance of the Student class is created with the specified properties.
+            </remarks>
+        </member>
+        <member name="M:StudentManagementSystem.Student.Study(System.String)">
+            <summary>
+            Displays information about student
+            </summary>
+            <summary>
+            Student study a course
+            <param name="course" >The name of the course the student wants to study</param>
+            </summary>
+            <remarks>
+            Preconditions: The course parameter must be provided and should be a string.
+            Postconditions: A void method that prints the student is studying the specified course.
+            </remarks>
+        </member>
+        <member name="M:StudentManagementSystem.Student.TakeTest(System.String)">
+            <summary>
+            Student take a test
+            <param name="course" >The name of the course the student wants to take test</param>
+            </summary>
+            <remarks>
+            Preconditions: The course parameter must be provided and should be a string.
+            Postconditions: A void method that prints the student is taking test for the specified course.
+            </remarks>
+        </member>
+        <member name="M:StudentManagementSystem.Student.SubmitAssignment(System.String,System.String)">
+            <summary>
+            Student submit assignment
+            <param name="course" >The name of the course the student wants to submit assignment</param>
+            <param name="assignment" >The name of the assignment the student wants to submit</param>
+            </summary>
+            <remarks>
+            Preconditions: The course and assignment parameters must be provided and should be a string.
+            Postconditions: A void method that prints the student is submitting assignment for the specified course.
+            </remarks>
+        </member>
+        <member name="M:StudentManagementSystem.Student.AttendClass(System.String)">
+            <summary>
+            Student attend class
+            <param name="course" >The name of the course the student wants to attend class</param>
+            </summary>
+            <remarks>
+            Preconditions: The course parameter must be provided and should be a string.
+            Postconditions: A void method that prints the student is attending class for the specified course.
+            </remarks>
+        </member>
+        <member name="M:StudentManagementSystem.Student.JoinStudentClub(System.String)">
+            <summary>
+            Student join student club
+            <param name="club" >The name of the club the student wants to join</param>
+            </summary>
+            <remarks>
+            Preconditions: The club parameter must be provided and should be a string.
+            Postconditions: A void method that prints the student is joining the specified club.
+            </remarks>
+        </member>
+    </members>
+</doc>
